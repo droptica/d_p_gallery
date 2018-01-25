@@ -1,12 +1,6 @@
 {
-    "name": "intelektron/i_p_gallery",
+    "name": "intelektron/d_p_gallery",
     "description": "Paragraph containing simple gallery.",
     "type": "drupal-module",
-    "license": "GPL-2.0+",
-    "authors": [
-        {
-            "name": "Grzegorz Pietrzak",
-            "role": "developer"
-        }
-    ]
+    "license": "GPL-2.0+"
 }
