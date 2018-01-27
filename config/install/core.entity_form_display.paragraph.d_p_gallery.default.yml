@@ -13,7 +13,6 @@ dependencies:
 id: paragraph.d_p_gallery.default
 targetEntityType: paragraph
 bundle: d_p_gallery
-      rows: 5
 mode: default
 content:
   field_d_long_text:
