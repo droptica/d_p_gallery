@@ -6,6 +6,6 @@
     "homepage": "https://github.com/droptica/d_p_gallery",
     "keywords": ["drupal", "droopler", "paragraph", "gallery"],
     "require": {
-      "droptica/droopler": "dev-feature/new-paragraphs"
+      "droptica/droopler": "dev-feature/new-paragraphs || dev-develop"
     }
 }
