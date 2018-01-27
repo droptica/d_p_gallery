@@ -1,5 +1,9 @@
-# Gallery paragraph for Droopler #
-[![N|Solid](http://intelektron.pl/logo.svg)](http://intelektron.pl)
+# Simple gallery paragraph for Droopler #
+[![N|Solid](https://www.droopler.pl/profiles/contrib/droopler/themes/custom/droopler_theme/logo.svg)](http://droopler.pl)
+
+*The module is not supported at this time. Currently it works only with **dev-new-paragraphs** branch of Droopler.* 
+
+*For 8.1.0-alpha1 and alpha2 releases of Droopler please use [this unofficial repository](https://github.com/intelektron/i_p_gallery).*
 
 ## Installation ##
 
@@ -9,7 +13,7 @@ Put this module in the "require" section of your composer.json. Remember to inst
 
 ```json
 "require": {
-  "intelektron/i_p_gallery":  "^1.0",
+  "droptica/d_p_gallery":  "^1.0",
   "drupal/colorbox": "^1.4",
   "npm-asset/jquery-colorbox": "^1.6"
 }
@@ -19,9 +23,9 @@ In the "repositories" section put:
 
 ```json
 "repositories": {
-  "intelektron-gallery": {
+  "droopler-gallery": {
     "type": "git",
-    "url":  "git@github.com:intelektron/i_p_gallery.git"
+    "url":  "git@github.com:droptica/d_p_gallery.git"
   }
 }
 ```
@@ -40,7 +44,7 @@ Finally add this to "extra" section as first item in "installer-paths":
 3. Include module's scss in droopler_subtheme style.scss file
 
 ```scss
-@import "../../../../modules/contrib/i_p_gallery/scss/i_p_gallery";
+@import "../../../../modules/contrib/d_p_gallery/scss/d_p_gallery";
 ```
 
 **Note**: Any changes made in this file won't be caught by **gulp watch**.

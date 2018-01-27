@@ -3,11 +3,11 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_d_main_title
-    - paragraphs.paragraphs_type.i_p_gallery
-id: paragraph.i_p_gallery.field_d_main_title
+    - paragraphs.paragraphs_type.d_p_gallery
+id: paragraph.d_p_gallery.field_d_main_title
 field_name: field_d_main_title
 entity_type: paragraph
-bundle: i_p_gallery
+bundle: d_p_gallery
 label: 'Main title'
 description: ''
 required: false

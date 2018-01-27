@@ -2,17 +2,18 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.i_p_gallery.field_d_long_text
-    - field.field.paragraph.i_p_gallery.field_d_main_title
-    - field.field.paragraph.i_p_gallery.field_i_image
+    - field.field.paragraph.d_p_gallery.field_d_long_text
+    - field.field.paragraph.d_p_gallery.field_d_main_title
+    - field.field.paragraph.d_p_gallery.field_d_image
     - image.style.thumbnail
-    - paragraphs.paragraphs_type.i_p_gallery
+    - paragraphs.paragraphs_type.d_p_gallery
   module:
     - image
     - text
-id: paragraph.i_p_gallery.default
+id: paragraph.d_p_gallery.default
 targetEntityType: paragraph
-bundle: i_p_gallery
+bundle: d_p_gallery
+      rows: 5
 mode: default
 content:
   field_d_long_text:
@@ -31,7 +32,7 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_i_image:
+  field_d_image:
     weight: 2
     settings:
       progress_indicator: throbber

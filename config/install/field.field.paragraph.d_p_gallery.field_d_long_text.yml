@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - field.storage.paragraph.field_d_long_text
-    - paragraphs.paragraphs_type.i_p_gallery
+    - paragraphs.paragraphs_type.d_p_gallery
   module:
     - text
-id: paragraph.i_p_gallery.field_d_long_text
+id: paragraph.d_p_gallery.field_d_long_text
 field_name: field_d_long_text
 entity_type: paragraph
-bundle: i_p_gallery
+bundle: d_p_gallery
 label: 'Gallery description'
 description: ''
 required: false

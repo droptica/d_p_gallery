@@ -1,6 +1,11 @@
 {
     "name": "droptica/d_p_gallery",
-    "description": "Paragraph containing simple gallery.",
+    "description": "Droopler paragraph containing simple gallery.",
     "type": "drupal-module",
-    "license": "GPL-2.0+"
+    "license": "GPL-2.0+",
+    "homepage": "https://github.com/droptica/d_p_gallery",
+    "keywords": ["drupal", "droopler", "paragraph", "gallery"],
+    "require": {
+      "droptica/droopler": "dev-feature/new-paragraphs"
+    }
 }
