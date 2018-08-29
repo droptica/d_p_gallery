@@ -1,7 +1,6 @@
 # Simple gallery paragraph for Droopler #
-[![N|Solid](https://www.droopler.pl/profiles/contrib/droopler/themes/custom/droopler_theme/logo.svg)](http://droopler.pl)
 
-*The module is not supported at this time. Currently it works only with **dev-new-paragraphs** branch of Droopler.* 
+***This module is deprecated**. It works only with Droopler 1.2. Since version 1.3 it is bundled into Droopler core.* 
 
 *For 8.1.0-alpha1 and alpha2 releases of Droopler please use [this unofficial repository](https://github.com/intelektron/i_p_gallery).*
 
